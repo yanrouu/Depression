@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="tajuk">Depression Detector</div>
+    <div class="explain">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Arcu odio fermentum et in facilisis et risus in. Facilisi morbi turpis arcu, cras.
+        Donec aliquam quis neque, est aliquam dui augue. Tempus porta in amet elit vestibulum vitae commodo.
+        Amet sapien fames mi morbi aliquet nisi arcu. Sodales sit sem eget nulla.
+    </div>
+
+    <button class="button btnStart">Start</button>
+
+    <nav>
+        <div class="logo">ABCv2</div>
+        <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tweepression">Tweepression</a></li>
+            <li><a href="#questionnaire">Questionnaire</a></li>
+            <li><a href="#results">Results</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <img src="landing.png" alt="">
+    </div>
+
+    <div class="enterUsername">
+        <P id="tweepression">Enter your twitter username:</P>
+    </div>
+
+    <div class="searchBar">
+        <input id="username" type="text" name="username" placeholder="@username" value="" />
+        <button id="usernameSubmit" type="submit" name="usernameSubmit" , onclick="loading();">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="#666666"
+                    d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+            </svg>
+        </button>
+    </div>
+
+    <div class="twitter">
+        <img src="twitter.png" alt="">
+    </div>
+
+
+    <div>
+        <p id="questionnaire">Questionnaire</p>
+        <br>
+        <br>
+        
+    </div>
+
+    <div class="project">
+        <form action="form1" id="form1">
+            <p>Little interest or pleasure in doing things.</p>
+              <input type="radio" id="notatall" name="littleInterest" value="notatall">
+              <label for="notatall">Not at all</label>
+              <input type="radio" id="several" name="littleInterest" value="several">
+              <label for="several">Several days</label>
+              <input type="radio" id="half" name="littleInterest" value="half">
+              <label for="half">More than half the days</label>
+            <input type="radio" id="nearly" name="littleInterest" value="nearly">
+              <label for="nearly">Nearly every days</label>
+            <hr>
+        </form>
+
+        <form id="form2">
+            <p>Feeling down, depressed, or hopeless.</p>
+              <input type="radio" id="notatall" name="littleInterest" value="notatall">
+              <label for="notatall">Not at all</label>
+              <input type="radio" id="several" name="littleInterest" value="several">
+              <label for="several">Several days</label>
+              <input type="radio" id="half" name="littleInterest" value="half">
+              <label for="half">More than half the days</label>
+            <input type="radio" id="nearly" name="littleInterest" value="nearly">
+              <label for="nearly">Nearly every days</label>
+            <hr>
+        </form>
+
+
+        <form id="form3">
+            <p>Trouble falling or staying asleep, or sleeping too much.</p>
+              <input type="radio" id="notatall" name="littleInterest" value="notatall">
+              <label for="notatall">Not at all</label>
+              <input type="radio" id="several" name="littleInterest" value="several">
+              <label for="several">Several days</label>
+              <input type="radio" id="half" name="littleInterest" value="half">
+              <label for="half">More than half the days</label>
+            <input type="radio" id="nearly" name="littleInterest" value="nearly">
+              <label for="nearly">Nearly every days</label>
+            <hr>
+        </form>
+
+
+        <form id="form4">
+            <p>Feeling tired or having little energy.</p>
+              <input type="radio" id="notatall" name="littleInterest" value="notatall">
+              <label for="notatall">Not at all</label>
+              <input type="radio" id="several" name="littleInterest" value="several">
+              <label for="several">Several days</label>
+              <input type="radio" id="half" name="littleInterest" value="half">
+              <label for="half">More than half the days</label>
+            <input type="radio" id="nearly" name="littleInterest" value="nearly">
+              <label for="nearly">Nearly every days</label>
+            <hr>
+        </form>
+
+        <form id="form5">
+            <p>Poor appetite or overeating.</p>
+              <input type="radio" id="notatall" name="littleInterest" value="notatall">
+              <label for="notatall">Not at all</label>
+              <input type="radio" id="several" name="littleInterest" value="several">
+              <label for="several">Several days</label>
+              <input type="radio" id="half" name="littleInterest" value="half">
+              <label for="half">More than half the days</label>
+            <input type="radio" id="nearly" name="littleInterest" value="nearly">
+              <label for="nearly">Nearly every days</label>
+            <hr>
+        </form>
+
+
+        <form id="form6">
+            <p>Feeling bad about yourself or that you are a failure or have let yourself or your family down.</p>
+              <input type="radio" id="notatall" name="littleInterest" value="notatall">
+              <label for="notatall">Not at all</label>
+              <input type="radio" id="several" name="littleInterest" value="several">
+              <label for="several">Several days</label>
+              <input type="radio" id="half" name="littleInterest" value="half">
+              <label for="half">More than half the days</label>
+            <input type="radio" id="nearly" name="littleInterest" value="nearly">
+              <label for="nearly">Nearly every days</label>
+            <hr>
+        </form>
+
+        <form id="form7">
+            <p>Trouble concentrating on things, such as reading the newspaper or watching television.</p>
+              <input type="radio" id="notatall" name="littleInterest" value="notatall">
+              <label for="notatall">Not at all</label>
+              <input type="radio" id="several" name="littleInterest" value="several">
+              <label for="several">Several days</label>
+              <input type="radio" id="half" name="littleInterest" value="half">
+              <label for="half">More than half the days</label>
+                <input type="radio" id="nearly" name="littleInterest" value="nearly">
+              <label for="nearly">Nearly every days</label>
+            <hr>
+        </form>
+
+        <form id="form8">
+            <p>Moving or speaking so slowly that other people could have noticed. Or the opposite being so figety or restless that you have been moving around a lot more than usual.</p>
+              <input type="radio" id="notatall" name="littleInterest" value="notatall">
+              <label for="notatall">Not at all</label>
+              <input type="radio" id="several" name="littleInterest" value="several">
+              <label for="several">Several days</label>
+              <input type="radio" id="half" name="littleInterest" value="half">
+              <label for="half">More than half the days</label>
+            <input type="radio" id="nearly" name="littleInterest" value="nearly">
+              <label for="nearly">Nearly every days</label>
+            <hr>
+        </form>
+
+        <form id="form9">
+            <p>Thoughts that you would be better off dead, or of hurting yourself.</p>
+              <input type="radio" id="notatall" name="littleInterest" value="notatall">
+              <label for="notatall">Not at all</label>
+              <input type="radio" id="several" name="littleInterest" value="several">
+              <label for="several">Several days</label>
+              <input type="radio" id="half" name="littleInterest" value="half">
+              <label for="half">More than half the days</label>
+            <input type="radio" id="nearly" name="littleInterest" value="nearly">
+              <label for="nearly">Nearly every days</label>
+            <hr>
+        </form>
+    <br>
+
+    </div>
+
+    <div class = "center">
+        <button class="button btnResult">Result</button>
+    </div>
+
+
+
+
+
+
+</body>

@@ -1,0 +1,231 @@
+body {
+	padding: 0;
+	margin: 70;
+    overflow-x: hidden;
+    /* margin-left: 70px; */
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+
+.tajuk{
+width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 200px;
+  margin-left: 70px;
+  font-family: 'Itim', cursive;
+  font-weight: regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.explain{
+width: 50%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 320px;
+  margin-left: 70px;
+  font-family: 'Itim', cursive;
+  font-weight: lighter;
+  font-size: 20px;
+ opacity: 1;
+text-align: left;
+}
+
+.btnStart{
+    font-family: 'Itim', cursive;
+    color: #fff;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    border-color: rgba(255, 255, 255, 0);
+    background: linear-gradient(rgba(140,79,240,1), rgba(58,0,155,1));
+    /* opacity: 1; */
+    position: absolute;
+    top: 480px;
+    margin-left: 70px;
+    border: #fff;
+    overflow: hidden;
+}
+  
+.btnStart:hover {
+    border-top-right-radius: 30px;
+}
+  
+.container img {
+    margin-top: 100px;
+    margin-left: 980px;
+    width: 30%;
+    overflow: hidden;
+}
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Itim', cursive;
+	padding: 0 5%;
+	height: 80px;
+	background-color: #ffffff;
+}
+nav .logo {
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 36px;
+	color: rgb(0, 0, 0);
+}
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav .links li {
+	list-style: none;
+}
+nav .links a {
+	display: block;
+	padding: 1em;
+	font-size: 28px;
+	font-weight: lighter;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+nav a:hover {
+    color: #4000A9;
+    text-decoration: underline;
+}
+
+#tweepression{
+    margin-top: 100px;
+    left: 70px;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    font-family: "Itim", cursive;
+}
+
+.twitter img{
+    width: 95%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+.searchBar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#username {
+    text-align: left;
+    width: 100%;
+    height: 2.8rem;
+    background: #eeeeee;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+    font-family: "Itim", cursive;
+    cursor:text;
+  }
+  
+  #usernameSubmit {
+    text-align: center;
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  #usernameSubmit:hover {
+    color: #4000A9;
+    cursor: pointer;
+  }
+
+#questionnaire{
+    color:#000000;
+    margin-top: 200px;
+    left: 70px;
+    font-size: 32px;
+    text-align: center;
+    font-family: "Itim", cursive;
+}
+
+.project{
+    font-size: 20px;
+    margin-left: 70px;
+    font-family: "Itim", cursive;
+    color: #2a2a2a;
+    line-height: 200%;
+    
+    text-align: center;
+}
+
+.btnResult{
+    font-family: 'Itim', cursive;
+    color: #fff;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    border-color: rgba(255, 255, 255, 0);
+    background: linear-gradient(rgba(140,79,240,1), rgba(58,0,155,1));
+    display: flex;
+    border: #fff;
+    justify-content: center;
+    left: 50%;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+}
+  
+.btnResult:hover {
+    border-top-right-radius: 30px;
+}
+
+#form1:hover{
+    background-color: rgb(231, 208, 255);
+}
+
+#form2:hover{
+    background-color: rgb(231, 208, 255);
+}
+#form3:hover{
+    background-color: rgb(231, 208, 255);
+}
+#form4:hover{
+    background-color: rgb(231, 208, 255);
+}
+#form5:hover{
+    background-color: rgb(231, 208, 255);
+}
+#form6:hover{
+    background-color: rgb(231, 208, 255);
+}
+#form7:hover{
+    background-color: rgb(231, 208, 255);
+}
+#form8:hover{
+    background-color: rgb(231, 208, 255);
+}
+#form9:hover{
+    background-color: rgb(231, 208, 255);
+}
